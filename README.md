@@ -1,2 +1,2 @@
-# Stone-Paper-Scissors-game
+# Rock-Paper-Scissors-game
 This game is developed in python.
