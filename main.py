@@ -1,4 +1,4 @@
-import random as r
+import random as ran
 
 #This function will convert the random integer value to r, p, s.
 def convertor(input1):
@@ -37,7 +37,7 @@ def toAsciiChar(a):
 
 player = input("Rock(r) , Paper (p) or Scissors (s) ")
 player.lower()
-comp = r.randint(0,2)  #comp means computer
+comp = ran.randint(0,2)  #comp means computer
 comp = convertor(comp)
 print(toAsciiChar(player)," VS ",toAsciiChar(comp))
 printWinner(player,comp)
