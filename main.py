@@ -36,6 +36,7 @@ def toAsciiChar(a):
         return "8<"
 
 player = input("Rock(r) , Paper (p) or Scissors (s) ")
+# lower func is called as someone can enter a uppercase input
 player.lower()
 comp = ran.randint(0,2)  #comp means computer
 comp = convertor(comp)
