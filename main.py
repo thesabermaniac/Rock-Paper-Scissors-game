@@ -42,3 +42,9 @@ comp = ran.randint(0,2)  #comp means computer
 comp = convertor(comp)
 print(toAsciiChar(player)," VS ",toAsciiChar(comp))
 printWinner(player,comp)
+#loop the code in the event of a tie to allow the player to play again
+while player == comp:
+    print("Try Again.")
+    player = input("Rock(r) , Paper (p) or Scissors (s) ")
+    print(toAsciiChar(player), " VS ", toAsciiChar(comp))
+    printWinner(player, comp)
